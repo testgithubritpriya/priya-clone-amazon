@@ -1,0 +1,39 @@
+.checkoutProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkoutProduct__info {
+    padding-left: 20px
+}
+
+.checkoutProduct__info > button {
+    background-color:#efca10;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.checkoutProduct__info > button:hover {
+    
+    color: #0c0b02; /* Bright orange color */
+    transform: scale(1.2); /* Increase size on hover */
+  }
+
+.checkoutProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+  }
+
+.checkoutProduct__rating {
+    display: flex;
+  }
+
+.checkoutProduct__title {
+    font-size: 17px;
+    font-weight: 800;
+}
